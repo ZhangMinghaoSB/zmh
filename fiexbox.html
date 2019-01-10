@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<style>
+	/*justify-content:
+	 *fiex-start:居左对齐
+	 *center：居中对齐
+	 *fiex-end：居右对齐
+	 *space-between：两边对齐
+	 *space-around:平分剩余空间
+	 
+	 *align-items:
+	 * flex-start:居上
+	 * center:居中
+	 * flex-end:居下
+	 * stretch：拉伸 */
+#div1
+{
+display: flex;
+justify-content: space-between;
+}
+#div2
+{
+	height: 500px;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#div3
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item{
+	width: 20%;
+}
+</style>
+</head>
+<body>
+<div id="div1">
+<span id="s1">
+衣恋集团品牌女装特卖会
+</span>
+<span id="s2">
+			剩3天	
+			</span>	
+</div>
+<div id="div2">
+	<img src="img/15420731471304.jpg" />
+	<img src="img/15420731720693.jpg" />
+</div>
+<div id="div3">
+	<img class="item" src="img/15420731471304.jpg" />
+	<img class="item" src="img/15420731720693.jpg" />
+	<img class="item" src="img/15420732017875.jpg" />
+	<img class="item" src="img/15420732274447.jpg" />
+	<img class="item" src="img/15420733032269.jpg" />
+	<img class="item" src="img/15420733296928.jpg" />
+	<img class="item" src="img/15420733666197.jpg" />
+	<img class="item" src="img/15420733912841.jpg" />
+	<img class="item" src="img/15420734196780.jpg" />
+	<img class="item" src="img/15420734442435.jpg" />
+</div>
+</body>
+</html>
